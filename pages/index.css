@@ -1,0 +1,17 @@
+/*Чужой код*/
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+/*Миксы*/
+
+/*БЭМ*/
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__ears/page__ears.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__link/_highlighted/header__link_highlighted.css);
+
