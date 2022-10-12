@@ -9,3 +9,7 @@
   display: inline-block;
   margin-top: 12px;
 }
+
+.place__link:hover {
+  opacity: .8;
+}
