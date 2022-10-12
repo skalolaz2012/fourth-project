@@ -2,6 +2,7 @@
   background-color: #2A2C2F;/*был вот этот #E5E5E5 - как в фигме, в ревью поправили, что вся страница должная быть черная, а не серая, то есть без ушей*/
   /*Альтернативные шрифты*/
   font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
   /*Сглаживание*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
