@@ -4,7 +4,7 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   /*Сглаживание*/
   -webkit-font-smoothing: antialiased;
-  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   /*Подгонка размера текста*/
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;

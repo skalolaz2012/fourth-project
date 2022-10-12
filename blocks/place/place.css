@@ -28,7 +28,7 @@
   .place {
     gap: 32px;
     grid-template-columns: repeat(1, 320px);
-    grid-template-rows: 35px 1fr 320px max-content ;
+    grid-template-rows: 35px 1fr 320px max-content;
   }
 }
   /*grid-template-areas:
