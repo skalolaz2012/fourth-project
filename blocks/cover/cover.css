@@ -1,0 +1,24 @@
+.cover {
+  font-family: 'Inter';
+  font-style: normal;
+  padding: 92px 48px;
+  color: #FFF;
+}
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    padding: 92px 0 88px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    padding: 90px 0 88px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .cover {
+    padding: 66px 0 64px;
+  }
+}

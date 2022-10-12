@@ -1,0 +1,11 @@
+.footer {
+  color: #FFF;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+}

@@ -7,3 +7,22 @@
   max-width: 690px;
   margin: 40px auto 0 148px;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__text {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__text {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

@@ -8,3 +8,22 @@
   margin: 33px auto 0 148px;
   padding-left: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__list {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__list {
+    margin-left: 16px;
+    /*в макете margin-top 34px, уточнил бы у дизайнера - ошибка наверно, переопределять не стал*/
+  }
+}

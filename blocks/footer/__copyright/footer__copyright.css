@@ -1,0 +1,10 @@
+.footer__copyright {
+  padding-right: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__copyright {
+    padding-left: 16px;
+    margin-bottom: 24px;
+  }
+}
