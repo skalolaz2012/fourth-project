@@ -5,29 +5,14 @@
   text-align: center;
   color: #FFF;
   margin-bottom: 0;
-  margin: 32px 320px 0;
-}
-
-@media screen and (max-width: 1280px) {
-  .lead__subtitle {
-    margin-right: 192px;
-    margin-left: 192px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .lead__subtitle {
-    margin-right: 64px;
-    margin-left: 64px;
-  }
+  margin: 32px auto 0;
+  max-width: 640px;
 }
 
 @media screen and (max-width: 768px) {
   .lead__subtitle {
     margin-top: 16px;
-    margin-right: 16px;
-    margin-left: 16px;
     font-size: 16px;
-      line-height: 1.25;
+    line-height: 1.25;
   }
 }
