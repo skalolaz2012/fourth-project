@@ -7,7 +7,6 @@
 /*БЭМ*/
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__ears/page__ears.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
