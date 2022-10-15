@@ -1,15 +1,28 @@
 .intro__description {
-  max-width: 804px;
+  max-width: 690px;
+  margin-top: 92px;
+  margin-left: 148px;
 }
 
 @media screen and (max-width: 1024px) {
   .intro__description {
-    max-width: 704px;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro__description {
+    max-width: 720px;
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__description {
-    max-width: 304px;
+    max-width: 288px;
+    margin-top: 64px;
+    margin-left: 16px;
   }
 }

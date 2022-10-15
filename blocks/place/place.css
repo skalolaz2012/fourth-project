@@ -8,7 +8,7 @@
   margin-top: 80px;
 }
 
-@media screen and (max-width: 1279px) { /*видимо на гридах всегда так на 1px придется уменьшать*/
+@media screen and (max-width: 1279px) { 
   .place {
     column-gap: 32px;
     grid-template-columns: 440px 456px;
@@ -33,8 +33,3 @@
     margin-top: 50px;
   }
 }
-  /*grid-template-areas:
-  "place__title place__url-heading"
-  "place__title place__link"
-  "place__image place__paragraph"
-  "place__image place__paragraph"; идея не сработала из-за gap*/

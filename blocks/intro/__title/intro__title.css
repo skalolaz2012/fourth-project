@@ -1,34 +1,18 @@
 .intro__title {
   font-weight: 900;
-  font-size: 44px; /*пришлось уменьшить, чтобы соответствовало макету*/
+  font-size: 54px;
   line-height: 1.07;
-  margin: 92px auto 0 148px;
 }
 
-@media screen and (max-width: 1024px) { /*тут был не дубль запросов, а ошибка при copy/paste*/
+@media screen and (max-width: 700px) {
   .intro__title {
-    margin-left: 48px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .intro__title {
-    margin-top: 88px;
-    margin-left: 24px;
-  }
-}
-
-@media screen and (max-width: 640px) { /*чтобы верстка не ломалась*/
-  .intro__title {
-    font-size: 6vw;
+    font-size: 7vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro__title {
-    margin-top: 64px;
-    margin-left: 16px;
-    font-size: 36px; /*пришлось увеличить*/
+    font-size: 32px;
     line-height: 1.09;
   }
 }
