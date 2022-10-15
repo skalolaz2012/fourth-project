@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 744px) { /*пришлось добавить, иначе верстка рушится*/
+@media screen and (max-width: 744px) {
   .lead__title {
     font-size: 12vw;
   }

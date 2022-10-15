@@ -1,6 +1,4 @@
 .page {
-  /*background-color: #2A2C2F;*/
-  /*Код ниже написал в элементе page__ears, со вложенностью был порядок, но автотесты зарубили, поэтому не по БЭМ, но теперь сую эти свойства в блок*/
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   min-width: 320px;
