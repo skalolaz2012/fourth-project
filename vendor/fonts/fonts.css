@@ -4,8 +4,6 @@
   font-weight: 400;
   src: url('./Inter-Web/Inter-Regular.woff2?v=3.19') format('woff2'),
       url('./Inter-Web/Inter-Regular.woff?v=3.19') format('woff'),
-      url('./Inter-Web/Inter-Regular.ttf') format('ttf'),
-      url('./Inter-Web/Inter-Regular.otf') format('otf');
 }
 
 @font-face {
@@ -14,8 +12,6 @@
   font-weight: 700;
   src: url('./Inter-Web/Inter-Bold.woff2?v=3.19') format('woff2'),
       url('./Inter-Web/Inter-Bold.woff?v=3.19') format('woff'),
-      url('./Inter-Web/Inter-Bold.ttf') format('ttf'),
-      url('./Inter-Web/Inter-Bold.otf') format('otf');
 }
 
 @font-face {
@@ -24,6 +20,4 @@
   font-weight: 900;
   src: url('./Inter-Web/Inter-Black.woff2?v=3.19') format('woff2'),
       url('./Inter-Web/Inter-Black.woff?v=3.19') format('woff'),
-      url('./Inter-Web/Inter-Black.ttf') format('ttf'),
-      url('./Inter-Web/Inter-Black.otf') format('otf');
 }

@@ -6,13 +6,13 @@
   padding-left: 48px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .footer__links {
     padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .footer__links {
     padding-left: 16px;
     flex-direction: column;

@@ -18,7 +18,7 @@
         <img src="./images/1280/__logo.svg" alt="Логотип-иконка карты России" class="header__logo">
       </a>
       <ul class="header__links">
-        <li><a href="#" class="header__link header__link_highlighted">Ru</a></li>
+        <li><a href="#" class="header__link header__link_active">Ru</a></li>
         <li><a href="#" class="header__link">En</a></li>
       </ul>
     </header>
@@ -26,41 +26,48 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img src="./images/1280/russian-travel.png" alt="Вид из окна поезда" class="lead__image">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img src="./images/1280/russian-travel.png" alt="Вид из окна поезда" class="lead__image">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
       <section class="intro">
-        <h2 class="intro__title">Чего мы там не видели?</h2>
-        <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол,
-        чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и
-        суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и
-        многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила
-        их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места,
-        достойные вашего отпуска.</p>
-        <ul class="intro__list">
-          <li>Часовых поясов <span class="intro__list intro__list_accent-thin">11</span></li> <!--локальная дичь. Из-за невозможности использовать модификаторы без элементов пришлось обнулять отступы у элементов span (а их добавлять из-за дизайна - цифры явно тоньше написаны)-->
-          <li>Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list_accent-thin">12</span></li>
-          <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list_accent-thin">16</span></li>
-          <li>Природных заповедников <span class="intro__list intro__list_accent-thin">105</span></li>
-          <li>Аэропортов <span class="intro__list intro__list_accent-thin">241</span></li>
+        <div class="intro__description">
+          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести
+          отпуск в родной стране. Мол,
+          чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и
+          суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и
+          многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
+          усадила
+          их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места,
+          достойные вашего отпуска.</p>
+          <ul class="intro__list">
+            <li>Часовых поясов <span class="intro__list intro__list-value">11</span></li>
+            <!--локальная дичь. Из-за невозможности использовать модификаторы без элементов пришлось обнулять отступы у элементов span (а их добавлять из-за дизайна - цифры явно тоньше написаны)-->
+            <li>Объектов природного наследия ЮНЕСКО <span class="intro__list intro__list-value">12</span></li>
+            <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list intro__list-value">16</span></li>
+            <li>Природных заповедников <span class="intro__list intro__list-value">105</span></li>
+            <li>Аэропортов <span class="intro__list intro__list-value">241</span></li>
+          </ul>
+        </div>        
+      </section>
+      <section class="photo-grid">
+        <ul class="photo-grid__items">
+          <li><img src="./images/1280/__item-0.png" alt="Вид из окна поезда" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-1.png" alt="Облака видно из самолёта" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-2.png" alt="Одинокий волк в прерии" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-3.png" alt="Горный лес в тумане" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-4.png" alt="Зимняя поездка по льду" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-5.png" alt="Прибой у берега" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-6.png" alt="Снежные горные хребты" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-7.png" alt="Чудо света-валуны" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-8.png" alt="Сопки в России" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-9.png" alt="Настоящий вулкан в России" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-10.png" alt="Красивые обрыв на скалах" class="photo-grid__item"></li>
+          <li><img src="./images/1280/__item-11.png" alt="Горячие источники России" class="photo-grid__item"></li>
         </ul>
       </section>
-      <div class="photo-grid">
-        <ul class="photo-grid__items">
-          <li><img src="./images/1280/__item-0.png" alt="Фото России-1" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-1.png" alt="Фото России-2" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-2.png" alt="Фото России-3" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-3.png" alt="Фото России-4" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-4.png" alt="Фото России-5" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-5.png" alt="Фото России-6" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-6.png" alt="Фото России-7" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-7.png" alt="Фото России-8" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-8.png" alt="Фото России-9" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-9.png" alt="Фото России-10" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-10.png" alt="Фото России-11" class="photo-grid__item"></li>
-          <li><img src="./images/1280/__item-11.png" alt="Фото России-12" class="photo-grid__item"></li>
-        </ul>
-      </div>
       <section class="places">
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>

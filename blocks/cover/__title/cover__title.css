@@ -3,31 +3,38 @@
   font-size: 72px;
   line-height: 1.06;
   text-align: center;
-  padding-top: 245px;
-  padding-bottom: 32px;
+  padding: 245px 0 32px;
   margin: 0 auto;
   max-width: 560px;
 
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1024px) {
   .cover__title {
     padding-top: 195px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .cover__title {
     padding-top: 115px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 640px) {
   .cover__title {
-    max-width: 228px; /*в брифе 288 ширина окна, но тогда перенос идет на предлоге, не по брифу*/
     padding-top: 33px;
+    font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    max-width: 288px; 
     padding-bottom: 16px;
     font-size: 32px;
     line-height: 1.09;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

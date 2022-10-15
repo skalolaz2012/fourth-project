@@ -6,10 +6,16 @@
   color: #FFF;
   margin-bottom: 0;
   margin: 32px auto 0;
-  max-width: 640px;
+  max-width: 590px; /*пришлось переопределить 640 из макета, чтобы перенос соответствовал*/
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 488px) { /*чтобы верстка не ломалась*/
+  .lead__subtitle {
+    font-size: 6vw;
+  }
+}
+
+@media screen and (max-width: 320px) {
   .lead__subtitle {
     margin-top: 16px;
     font-size: 16px;
