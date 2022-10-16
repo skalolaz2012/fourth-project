@@ -7,6 +7,8 @@
 @media screen and (max-width: 1023px) {
   .footer__copyright {
     padding-right: 24px;
+    font-size: 14px;
+    line-height: 1.14;
   }
 }
 
@@ -14,5 +16,14 @@
   .footer__copyright {
     padding-left: 16px;
     margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    padding-left: 16px;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1;
   }
 }

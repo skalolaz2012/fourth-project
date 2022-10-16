@@ -3,7 +3,7 @@
   display: block;
   text-decoration: none;
   background: url(../../../images/1280/__background.png) no-repeat;
-  background-size: auto;
+  background-size: cover;
   color: inherit;
   z-index: 1;
   
@@ -24,16 +24,4 @@
 
 .cover__background:hover::after {
   opacity: 0.8;
-}
-
-@media screen and (max-width: 1280px) {
-  .cover__background {
-    background-size: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .cover__background {
-    background-size: 100% auto;
-  }
 }
